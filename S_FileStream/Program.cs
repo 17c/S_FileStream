@@ -44,7 +44,6 @@ namespace S_FileStream
             writer = new StreamWriter(filePath,true);
             writer.WriteLine("print(\"hello,world\")");
             writer.Flush();
-           
         }
     }
 }
